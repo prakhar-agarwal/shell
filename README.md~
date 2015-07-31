@@ -3,8 +3,7 @@
 In this problem a command line interpreter or shell has been implemented. The shell
 takes in a command from user at its prompt and executes it and then prompts for more
 input from user.
-
-- shell executes a command using fork()and execve() calls. It does not use
+-shell executes a command using fork()and execve() calls. It does not use
 temporary files, popen(), or system() calls, sh or bash shells to
 execute a command. Once the command is completed it prints its pid and
 status.
